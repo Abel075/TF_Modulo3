@@ -1,0 +1,115 @@
+/*                               Estilos generales                           */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.centrado {
+    text-align: center;
+}
+/*                                    Fin                                     */
+
+/*                          Definiendo colores de la web                      */
+:root {
+    --primario: #214F5F;
+    --secundario: #F6F6F6;
+    --tercerario: #FDA804;
+}
+
+/*                                    Fin                                   */
+
+/*                                   Barra de navegacion                    */
+
+header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center; 
+    flex-wrap: wrap;
+    background: var(--primario);
+    color: var(--secundario);
+}
+
+
+nav li {
+    display: inline-block;
+    padding: 1rem;
+    list-style: none;
+    font-size: 20px;
+    
+    
+}
+
+nav li a {
+    color: var(--secundario);
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    color: var(--tercerario);
+}
+
+/*                                           Fin                         */
+
+
+
+
+
+/*                                           Footer                       */
+.footer {
+    color: var(--secundario);
+    position: fixed;
+    background: var(--primario);
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+.footer h1 {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+/*                                           Fin                           */
+
+/*                                   Formulario                             */
+form {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input {
+    width: 50%;
+    height: 30px;
+    margin: 0.5rem;
+}
+  
+form button {
+    color: var(--secundario);
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+    width: 35%; 
+    border-width: 0.2rem;
+    border-color: var(--tercerario);
+    background: var(--primario);
+    cursor: pointer;
+    font-size: 1rem;
+}
+form button:hover {
+
+    color: var(--tercerario);
+}
+
+form select {
+    width: 40%;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+/*                                   Fin                                   */
+
+
