@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Trabajo Final Modulo 3</title>
+    <title>Trabajo Final Modulo 3</title>    
 </head>
 <body>
 
@@ -20,11 +20,11 @@
 <br>
 <br>
 <main>
-    <form action="">
+    <form action="" id="form_curso" name="form_curso" method="GET" onsubmit="mensaje()">
 
-        <Label for="ejercicio01"><h2>Ingrese un número entre 3 y 10</h2></Label>
+        <Label for=""><h2>Ingrese un número entre 3 y 10</h2></Label>
         <br>
-        <input type="number" placeholder="Ingrese un número" min="3" max="10" id="ejercicio01" required>
+        <input type="number" placeholder="Ingrese un número" min="3" max="10" required id="nombre" name="nombre">
         <label for=""></label>
         <br>
         <button type="submit">Enviar</button>
@@ -32,6 +32,7 @@
         <!-- Pedir datos con promt -->
 
     </form>
+    
 </main>
     <footer class="footer centrado">
         <h1>&copy;Abel Correa</h1>
